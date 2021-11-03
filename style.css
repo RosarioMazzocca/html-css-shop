@@ -1,3 +1,42 @@
-div .green{
-    
+.col {
+    position: relative;
+    width: 33%;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+.hearts{
+    display: none;
+    border: 1px solid transparent;
+}
+.col:hover .hearts{
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    }
+.col img{
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.row {
+    margin-top: 40px;
+}
+.row .secondrow{
+    margin-bottom: 40px;
+}
+.green{
+    position: absolute;
+    bottom: 97%;
+    left: 93%;
+    background-color: green;
+}
+.orange{
+    position: absolute;
+    bottom: 97%;
+    left: 94.5%;
+    background-color: orange;
 }
